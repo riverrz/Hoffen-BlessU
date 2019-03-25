@@ -50,4 +50,40 @@
 .banner__container {
   width: 100%;
   height: 80vh;
+  position: relative;
+}
+
+.social__list {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  background-color: #444;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 1rem;
+}
+.social__list-item {
+  margin: 1rem 0;
+}
+.social__list-item span {
+  display: block;
+  border-radius: 50%;
+  border: 1.5px solid #eee;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.social__list-item span:hover {
+  background-color: #eee;
+  color: #222;
+}
+.social-icon {
+  font-size: 2rem;
 }
