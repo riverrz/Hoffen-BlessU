@@ -5,9 +5,6 @@
 }
 
 .nav__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -26,9 +23,24 @@
   color: #222;
   background-color: #eee;
 }
-
+.nav__list-item:hover .nav__sublist {
+  transform: translateX(0px);
+  opacity: 1;
+  visibility: visible;
+}
 .logo {
   width: 125px;
   height: 125px;
-  /* border: 1px solid #333; */
+}
+.nav__sublist {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  transform: translateX(30px);
+  background-color: #444;
+  color: #eee;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
 }

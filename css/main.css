@@ -10,6 +10,17 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 *,
 *::after,
 *::before {
