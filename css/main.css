@@ -25,7 +25,15 @@ html {
 }
 
 /* 650px for mobile view */
-
+.h1_about{
+  font-weight: 2800 !important;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color : black;
+      text-align: center;
+      font-size: 3rem;
+    }
+    
 body {
   margin: 0;
   padding: 0;
@@ -55,11 +63,3 @@ i {
 *::before {
   box-sizing: border-box;
 }
-h1{
-font-weight: 2800 !important;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color : black;
-    text-align: center;
-    font-size: 3rem;
-  }
