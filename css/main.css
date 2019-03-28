@@ -47,6 +47,12 @@ a {
 i {
   color: inherit;
 }
+.centered {
+  text-align: center;
+}
+.heading--primary {
+  font-size: 3rem;
+}
 
 *,
 *::after,
