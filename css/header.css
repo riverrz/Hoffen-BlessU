@@ -56,21 +56,21 @@
 .social__list {
   position: absolute;
   right: 2%;
-  top: 5%;
-  color: #fff;
+  top: 3%;
+  /* color: #fff; */
   display: flex;
   flex-flow: column;
-  background-color: #444;
+  /* background-color: #444;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
   padding: 1rem;
 }
 .social__list-item {
   margin: 1rem 0;
 }
-.social__list-item span {
+/* .social__list-item span {
   display: block;
   border-radius: 50%;
   border: 1.5px solid #eee;
@@ -86,4 +86,4 @@
 }
 .social-icon {
   font-size: 2rem;
-}
+} */

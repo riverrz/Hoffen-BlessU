@@ -2,7 +2,7 @@
   display: flex;
   margin-top: 8rem;
   flex-wrap: wrap;
-  margin-bottom: 10rem;
+  margin: 10rem 0;
 }
 .card__item {
   flex: 0 0 33.3%;
