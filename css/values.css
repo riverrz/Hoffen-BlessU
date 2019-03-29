@@ -3,7 +3,7 @@ section.values {
   background-image: url("../assets/background_1.jpg");
   background-size: cover;
   background-position: 0 -160px;
-  margin: 5rem 0;
+  /* margin: 5rem 0; */
 }
 
 .values__container {
@@ -31,4 +31,13 @@ section.values {
 }
 .container--black {
   background-color: #1a4965bf;
+}
+
+@media (max-width: 650px) {
+  section.values {
+    flex-direction: column;
+  }
+  .values__container p {
+    font-size: 1.8rem;
+  }
 }

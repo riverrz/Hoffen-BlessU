@@ -14,7 +14,7 @@
 }
 .nav__list-item {
   display: block;
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   color: #eee;
   cursor: pointer;
   position: relative;
@@ -29,6 +29,12 @@
   transform: translateX(0px);
   opacity: 1;
   visibility: visible;
+}
+.nav__link {
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding: 1.5rem;
 }
 .logo {
   width: 12.5rem;
@@ -69,6 +75,10 @@
 }
 .social__list-item {
   margin: 1rem 0;
+}
+.social__logo {
+  height: 32px;
+  width: 32px;
 }
 /* .social__list-item span {
   display: block;

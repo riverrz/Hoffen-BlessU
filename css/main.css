@@ -23,30 +23,30 @@ html {
 }
 
 /* 650px for mobile view */
-.h1_about{
+.h1_about {
   font-weight: 2800 !important;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color : black;
-      text-align: center;
-      font-size: 3rem;
-    }
-  
-  .h1_index{
-    text-align: center;
-    font-family: 'PlayfairDisplaySC-Bold';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    font-size: 3rem;
-    letter-spacing: 0px;
-  } 
-  /* font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.h1_index {
+  text-align: center;
+  font-family: "PlayfairDisplaySC-Bold";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  font-size: 3rem;
+  letter-spacing: 0px;
+}
+/* font-size: 24px;
     line-height: 34px; */
-    @font-face{
-      font-family: 'PlayfairDisplaySC-Bold';
-      src: url(/font/PlayfairDisplaySC-Bold.ttf);
-      } 
+@font-face {
+  font-family: "PlayfairDisplaySC-Bold";
+  src: url(/font/PlayfairDisplaySC-Bold.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -75,6 +75,7 @@ i {
 }
 .heading--primary {
   font-size: 3rem;
+  margin: 5rem 0;
 }
 
 *,
