@@ -51,6 +51,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  line-height: 27px;
 }
 
 ul {
@@ -75,6 +76,15 @@ i {
 }
 .heading--primary {
   font-size: 3rem;
+}
+.heading--secondary {
+  font-size: 2.5rem;
+}
+.heading--tertiary {
+  font-size: 2rem;
+}
+.heading--quaternary {
+  font-size: 1.6rem;
 }
 
 *,
