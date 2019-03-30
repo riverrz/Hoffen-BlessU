@@ -1,0 +1,27 @@
+.meetings__header {
+  background-color: #2777b9;
+  color: #fff;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+}
+.meetings__container {
+  color: #222;
+  margin: 4rem;
+}
+.meetings__item {
+  display: flex;
+  margin: 8rem 0;
+}
+.meetings__item img {
+  height: 30rem;
+  width: 60rem;
+}
+.meetings__item div {
+  padding: 2rem 4rem;
+}
+.meetings__item div p {
+  font-size: 1.5rem;
+}
