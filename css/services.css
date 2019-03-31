@@ -1,5 +1,5 @@
-.meetings__header {
-  background-color: #2777b9;
+.services__header {
+  background-color: #770377;
   color: #fff;
   height: 30rem;
   display: flex;
@@ -7,21 +7,21 @@
   justify-content: center;
   padding-left: 4rem;
 }
-.meetings__container {
+.services__container {
   color: #222;
   margin: 4rem;
 }
-.meetings__item {
+.services__item {
   display: flex;
   margin: 8rem 0;
 }
-.meetings__item img {
+.services__item img {
   height: 30rem;
   width: 60rem;
 }
-.meetings__item div {
+.services__item div {
   padding: 2rem 4rem;
 }
-.meetings__item div p {
+.services__item div p {
   font-size: 1.5rem;
 }
